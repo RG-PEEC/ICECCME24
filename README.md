@@ -16,9 +16,9 @@ Volunteering is a powerful catalyst for advancing the Sustainable Development Go
 
 The repository is structured as follows:
 
-## data/: Contains datasets used for training and evaluation.
-## evaluate_models/: Jupyter notebooks and scripts for model evaluation.
-## labeling/: Scripts and notebooks related to the labeling process.
-## llms/: Notebooks and resources related to large language models.
-## sampling/: Scripts and notebooks for data sampling.
-## train_models/: Jupyter notebooks and scripts for model training.
+- data/: Contains datasets used for training and evaluation.
+- evaluate_models/: Jupyter notebooks and scripts for model evaluation.
+- labeling/: Scripts and notebooks related to the labeling process.
+- llms/: Notebooks and resources related to large language models.
+- sampling/: Scripts and notebooks for data sampling.
+- train_models/: Jupyter notebooks and scripts for model training.
