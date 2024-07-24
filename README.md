@@ -4,9 +4,9 @@ Welcome to the ICECCME24 project repository. This repository contains the code a
 
 The project aims to synergistically align volunteers' personal goals with volunteering opportunities using a recommender system based on customized cross-encoder models. The contributions of the project are threefold:
 
-Utilizing large language models (LLMs) to provide labeled ground truth data for personal goals and volunteering opportunities.
-Developing a learning approach for fine-tuned models using transfer learning based on cross-encoder models.
-Evaluating the feasibility of different labeling approaches and the resulting models based on appropriate metrics and statistical tests.
+- *Utilizing large language models (LLMs) to provide labeled ground truth data* for personal goals and volunteering opportunities.
+- Developing a learning approach for *fine-tuned models using transfer learning based on cross-encoder models*.
+- *Evaluating the feasibility of different labeling approaches* and the resulting models based on appropriate metrics and statistical tests.
 
 # Introduction
 
@@ -15,10 +15,30 @@ Volunteering is a powerful catalyst for advancing the Sustainable Development Go
 # Project Structure
 
 The repository is structured as follows:
-
 - **data/**: Contains datasets used for training and evaluation.
 - **evaluate_models/**: Jupyter notebooks and scripts for model evaluation.
 - **labeling/**: Scripts and notebooks related to the labeling process.
 - **llms/**: Notebooks and resources related to large language models.
 - **sampling/**: Scripts and notebooks for data sampling.
 - **train_models/**: Jupyter notebooks and scripts for model training.
+
+# Setup
+To set up the project, follow these steps:
+
+**1. Clone the repository:**
+
+```sh
+git clone https://github.com/RG-PEEC/ICECCME24.git
+cd ICECCME24
+```
+
+**2. Create a new virtual environment**
+```sh
+python3 -m venv venv
+source venv/bin/activate
+```
+**3. Install packages**
+```sh
+pip install -r requirements.txt
+```
+
